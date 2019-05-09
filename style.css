@@ -30,6 +30,13 @@ a {
 	text-decoration: none;
 }
 
+hr {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border: 0;
+    border-top: 1px solid #d2cbcb94;
+}
+
 
 /*seccion top bar*/
 #top-bar {
@@ -100,6 +107,49 @@ a {
 	justify-content: flex-end;
 	width: 100%;
 }
+
+
+/*Seccion Slide institucionales*/
+.slide
+{
+  width: 820px;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  overflow: hidden;
+}
+.slide ul
+{
+  /*background-color: rgb(236,240,129); */
+  display: flex;
+  width: 300%;
+  animation: cambio 20s infinite alternate; 
+}
+
+.slide li
+{
+  width: 100%;
+  list-style: none;
+}
+
+.slide img
+{
+  width: 100%;
+}
+
+@keyframes cambio
+{
+  0%{margin-left: 0%}
+  10%{margin-left: 0%}
+
+  15%{margin-left: -100%}
+  25%{margin-left: -100%}
+
+  30%{margin-left: -200%}
+  40%{margin-left: -200%}
+
+} 
+
 
 
 /*seccion mapa*/
