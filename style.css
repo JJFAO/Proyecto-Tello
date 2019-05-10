@@ -90,12 +90,13 @@ hr {
 	z-index: 1;
 }
 
-/*.img-redes {
- -webkit-transition: all 0.5s ease-out;
- -moz-transition: all 0.5s ease;
- -ms-transition: all 0.5s ease;
+.img-redes {
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease
 }
-*/
+
 .img-redes:hover {
 	transition: 0.5s ease-in-out;
 	-webkit-transform: rotate(30deg);
