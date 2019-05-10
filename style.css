@@ -199,6 +199,43 @@ hr {
 #i4:checked ~ .nav_slide #dot4{
 	background: #fff;
 }
+/*Productos*/
+.productos{
+	align-content: space-around;
+}
+
+.titulo-producto{
+	background: #80808042;
+	box-shadow: 0 1px 5px rgba(190,190,190,.46);
+	text-align: center;
+	padding: 35px;
+	font-size: 40px;
+}
+
+.contenido-productos{
+	padding: 10px 0 10px 0;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.icono-productos{
+	width: 30%
+}
+
+.contenido-productos .fas{
+	font-size: 150px;
+}
+
+.contenido-productos i{
+	transition: 2s;
+	color: #808080a6;
+}
+.contenido-productos i:hover{
+	transform: scale(1.5) rotate(40deg);
+	transition: 2s;
+}
+
 
 
 /*seccion mapa*/
