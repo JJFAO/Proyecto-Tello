@@ -49,10 +49,6 @@ hr {
     display: flex;
 }
 
-.header-logo {
-	margin-left: 1%;
-}
-
 .dmenu {
 	width: 100%;
 	justify-content: center;
@@ -69,6 +65,7 @@ hr {
 #logo-bar {
 	margin-right: 10%;
 	margin-top: 3px;
+	filter: drop-shadow(5px 5px 6px #488);
 }
 
 .menu-item {
@@ -94,7 +91,7 @@ hr {
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease
+	transition: all 0.5s ease;
 }
 
 .img-redes:hover {
@@ -225,13 +222,14 @@ hr {
 
 .contenido-productos .fas{
 	font-size: 150px;
-}
-
-.contenido-productos i{
+	text-shadow: 2px 2px 0 #AAA,      /* Sombra 1 */
+	6px 6px 2px #777,    /* Sombra 2 */
+	12px 12px 8px #267;  /* Sombra 3 */
 	transition: 2s;
 	color: #808080a6;
 }
-.contenido-productos i:hover{
+
+.contenido-productos .fas:hover{
 	transform: scale(1.5) rotate(40deg);
 	transition: 2s;
 }
@@ -314,4 +312,23 @@ footer {
 .link {
 	color: #FFFFFF;
 	text-decoration: none;
+}
+
+
+/*seccion en construccion*/
+.construct {
+	margin-top: 500px;
+	display: flex;
+	justify-content: center;
+	margin: 170px 0;
+	align-items: center;
+}
+
+.construct img {
+	box-shadow: 2px 2px 10px #666;  
+}
+
+.construct h4 {
+	position: absolute;
+	background: #bdbd494d;
 }
