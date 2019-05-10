@@ -94,7 +94,7 @@ hr {
 }
 */
 .img-redes:hover {
-	width: 54px;
+	width: 53px;
 	transition: 0.3s ease-in-out;
 	-webkit-transform: rotate(30deg);
  	-moz-transform: rotate(30deg);
