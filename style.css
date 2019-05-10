@@ -85,6 +85,9 @@ hr {
 	width: 50px;
 	position: fixed;
 	padding-right: 4px;
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
 }
 
 /*.img-redes {
@@ -94,12 +97,11 @@ hr {
 }
 */
 .img-redes:hover {
-	width: 53px;
-	transition: 0.3s ease-in-out;
+	transition: 0.5s ease-in-out;
 	-webkit-transform: rotate(30deg);
  	-moz-transform: rotate(30deg);
  	-ms-transform: rotate(30deg);
- 	transform: rotate(35deg);
+ 	transform: rotate(360deg) scale(1.1);
 }
 
 .redes-wrap {
@@ -110,46 +112,92 @@ hr {
 
 
 /*Seccion Slide institucionales*/
-.slide
-{
-  width: 820px;
-  margin: auto;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  overflow: hidden;
-}
-.slide ul
-{
-  /*background-color: rgb(236,240,129); */
-  display: flex;
-  width: 300%;
-  animation: cambio 20s infinite alternate; 
+.institucional {
+	display: flex;
+	justify-content: center;
 }
 
-.slide li
-{
-  width: 100%;
-  list-style: none;
+.container{
+	margin:0;
+	margin-top: 100px;
+	position: relative;
+	width: 70%;
+	height: 0;
+	padding-bottom: 40%;
+	background: #4c4c4c;
+	border: solid: 10px #2c2c2c;
 }
 
-.slide img
-{
-  width: 100%;
+.slide_img{
+	position: absolute;
+	width: 100%;
+	height:100%;
 }
 
-@keyframes cambio
-{
-  0%{margin-left: 0%}
-  10%{margin-left: 0%}
+.slide_img img{
+	width: 100%;
+	height: 100%;
+}
 
-  15%{margin-left: -100%}
-  25%{margin-left: -100%}
+#i1, #i2, #i3, #i4{
+	display: none;
+}
 
-  30%{margin-left: -200%}
-  40%{margin-left: -200%}
+.prev, .next{
+	width: 12%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: rgba(88,88,88,.4); 
+	z-index: 99;
+	cursor: pointer;
+}
 
-} 
+.pre{
+	left: 0;
+}
 
+.next{
+	right: 0;
+}
+
+.nav_slide{
+	width: 100%;
+	height: 11px;
+	bottom: 12%;
+	position: absolute;
+	text-align: center;
+	z-index: 99; 
+}
+
+.dots{
+	top:-5px;
+	width: 18px;
+	height: 18px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 50%;
+	display: inline-block;
+	background: rgba(0,0,0,.6);
+}
+
+.slide_img{
+	z-index: -1;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four {
+	z-index: 9;
+}
+
+#i1:checked ~ .nav_slide #dot1, 
+#i2:checked ~ .nav_slide #dot2, 
+#i3:checked ~ .nav_slide #dot3,
+#i4:checked ~ .nav_slide #dot4{
+	background: #fff;
+}
 
 
 /*seccion mapa*/
