@@ -251,6 +251,11 @@ hr {
 	padding-bottom: 5%;
 }
 
+.mapa iframe {
+	border: solid 1px #dcdcdc;
+	box-shadow: 5px 5px 5px rgba(190,190,190,.46);
+}
+
 
 /*seccion footer*/
 footer {
