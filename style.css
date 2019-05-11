@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background: #f3f3f3;
+	color: #81817b;
 }
 
 @font-face {
@@ -28,6 +29,7 @@ ul {
 
 a {
 	text-decoration: none;
+	color: inherit;
 }
 
 hr {
@@ -123,7 +125,8 @@ hr {
 	height: 0;
 	padding-bottom: 40%;
 	background: #4c4c4c;
-	border: solid: 10px #2c2c2c;
+	border: solid 1px #dcdcdc;
+    box-shadow: 5px 5px 5px rgba(190,190,190,.46);
 }
 
 .slide_img{
@@ -198,7 +201,7 @@ hr {
 }
 /*Productos*/
 .productos{
-	align-content: space-around;
+	padding-bottom: 5%;
 }
 
 .titulo-producto{
@@ -207,6 +210,7 @@ hr {
 	text-align: center;
 	padding: 35px;
 	font-size: 40px;
+	font-family: 'Courgette', cursive;
 }
 
 .contenido-productos{
@@ -214,6 +218,8 @@ hr {
 	display: flex;
 	justify-content: center;
 	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .icono-productos{
@@ -240,6 +246,9 @@ hr {
 .mapa {
 	display: flex;
 	justify-content: center;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 
@@ -297,6 +306,7 @@ footer {
 	font-weight: 600;
 	padding-bottom: 5px;
 	margin-top: 50px;
+	margin-left: 14px;
 }
 
 .fab {
@@ -330,5 +340,13 @@ footer {
 
 .construct h4 {
 	position: absolute;
-	background: #bdbd494d;
+	background: #5a5a578a;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	width: 577px;
+	height: 316px;
+	color: #e0d331;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
 }

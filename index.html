@@ -6,6 +6,7 @@
 	<link rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Courgette|Cuprum">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="icon" href="img/ice-cream.ico" type="image/x-icon"/>
@@ -13,29 +14,26 @@
 </head>
 <body>
 <div id="top-bar">
-<!-- 	<div class="header-logo">
-		
-	</div> -->
 	<div class="dmenu">
 		<ul class="menu">
 			<a href="index.html" id="logo-bar"><img src="img/logo.png"></a>
-			<li><a href="" class="menu-item">PRODUCTOS</a></li>
+			<li><a href="#product" class="menu-item">PRODUCTOS</a></li>
 			<img src="img/menuseparator.png">
 			<li><a href="" class="menu-item">NOSOTROS</a></li>
 			<img src="img/menuseparator.png">
-			<li><a href="" class="menu-item">SUCURSALES</a></li>
+			<li><a href="#sucursal" class="menu-item">SUCURSALES</a></li>
 		</ul>
 	</div>	
 </div>
 <div class="redes-wrap">
 	<div class="redes-fixed">
-		<a href=""><img src="img/face1.png" width="100%" class="img-redes"></a>
-		<a href=""><img src="img/insta1.png" width="100%" class="img-redes"></a>
-		<a href=""><img src="img/phone1.png" width="100%" class="img-redes"></a>
+		<a href="https://www.facebook.com/tello.helados/"><img src="img/face1.png" width="100%" class="img-redes"></a>
+		<a href="https://www.instagram.com/tello_helados/"><img src="img/insta1.png" width="100%" class="img-redes"></a>
+		<a href="en-construccion.html"><img src="img/phone1.png" width="100%" class="img-redes"></a>
 	</div>
 </div>
 <main>
-<div class="institucional">
+<div class="institucional" id="inicio">
 	<div class="container">
 		<input type="radio" id="i1" name="images" checked/>
 		<input type="radio" id="i2" name="images" />
@@ -68,36 +66,40 @@
 			<label for="i4" class="dots" id="dot4"></label>
 		</div>		
 	</div>
-</div><hr>
-<div class="productos">
+</div>
+<div class="productos" id="product">
+	<hr>
 	<!-- iconos productos -->
-	<div class="productos">
-		<!-- iconos productos -->
-		<div class="titulo-producto">
-			PRODUCTOS
+	<div class="titulo-producto">
+		<h2>Productos</h2>
+	</div>
+	<div class="flecha">
+		<img src="img/flecha.png">
+	</div>
+	<div class="contenido-productos">
+		<div class="icono-productos">
+			<a href="en-construccion.html"><i class="fas fa-ice-cream"></i></a>
 		</div>
-		<div class="flecha">
-			<img src="img/flecha.png">
+		<div class="icono-productos">
+			<a href="en-construccion.html"><i class="fas fa-birthday-cake"></i></a>
 		</div>
-			<div class="contenido-productos">
-				<div class="icono-productos">
-					<i class="fas fa-ice-cream"></i>	
-				</div>
-				<div class="icono-productos">
-					<i class="fas fa-birthday-cake"></i>	
-				</div>
-				<div clas="'icono-productos">
-					<i class="fas fa-mug-hot"></i>	
-				</div>
+		<div clas="'icono-productos">
+			<a href="en-construccion.html"><i class="fas fa-mug-hot"></i></a>
 		</div>
 	</div>
 </div>
 <div class="somos">
 	
 </div>
-<hr>
-<div class="mapa">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d28482.83299557131!2d-65.240747249688!3d-26.82868676052713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stello!5e0!3m2!1ses!2sar!4v1557317253196!5m2!1ses!2sar" width="820px" height="420px" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<div id="sucursal">
+	<hr>
+	<div class="titulo-producto">
+		<h2>Sucursales</h2>
+	</div>
+	<div class="mapa" >	
+	    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d28482.83299557131!2d-65.240747249688!3d-26.82868676052713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stello!5e0!3m2!1ses!2sar!4v1557317253196!5m2!1ses!2sar" width="820px" height="420px" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
 </div>
 <br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -123,17 +125,18 @@
 	</div>
 	<div class="columna3">
 		<div class="title">
-			MENU
+			<a href="#inicio">INICIO</a>
 		</div>
 		<div class="menu-footer">
 			<ul>
 				<li>
-					<i class="fas fa-arrow-right"></i>PRODUCTOS
+					<a href="#product"><i class="fas fa-arrow-right"></i>PRODUCTOS</a>
 				</li>
 				<li>
-					<i class="fas fa-arrow-right"></i>SUCURSALES</li>
+					<a href="#sucursal"><i class="fas fa-arrow-right"></i>SUCURSALES</a></li>
 				<li>
-					<i class="fas fa-arrow-right"></i>CONTACTOS</li>
+					<a href="#contact"><i class="fas fa-arrow-right"></i>CONTACTOS</a>
+				</li>
 			</ul>
 		</div>
 	</div>
