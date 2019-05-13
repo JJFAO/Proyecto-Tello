@@ -256,8 +256,44 @@ hr {
 	text-shadow: 3px 10px 3px #0992873d, -8px -8px 2px #09928782;
 }
 
+/*seccion empresa*/
+.somos img{
+	width: 100%;
+	position: relative;
+
+}
+.somos p {
+	display: flex;
+    width: 70%;
+    text-align: justify;
+    padding-left: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
 
 /*seccion mapa*/
+.sucursales-img{
+	position: relative;
+}
+.sucursales img{
+	width: 100%;
+	position: relative;
+	padding-bottom: 15px;
+	display: inline-block;
+	text-align: left;
+}
+
+.texto-encima{
+	position: absolute;
+	top: 35px;
+	left: 35px;
+	font-size: 90px;
+	color: white;
+	font-family: 'Forte';
+	padding-top: 100px;
+}
+
 .sucursales:target {
 	transform: translateY(-20px);
 	transition: 1s;
@@ -276,6 +312,25 @@ hr {
 	box-shadow: 5px 5px 5px rgba(190,190,190,.46);
 }
 
+/*seccion cv*/
+.banner-empleos{
+	position: relative;
+}
+.banner-empleos img{
+	width: 100%;
+	position: relative;
+	padding-bottom: 15px;
+	display: inline-block;
+	text-align: left;
+}
+.sumateatello{
+	width: 90%;
+	background-color: white;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
 
 /*seccion contacto*/
 .contacto:target {
