@@ -289,6 +289,90 @@ hr {
 	margin: 10%;
 }
 
+.coment {
+	display: flex;
+	justify-content: center;
+}
+
+.button-coment {
+	text-align: center;
+	padding: 10px;
+	border-radius: 20px/50px;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+}
+
+.button-coment:hover {
+	color: #189289;
+}
+
+.contenedor-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.container-form {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+.container-form h2 {
+  margin-top: 10px;
+  color: #04675f;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.container-form .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.container-form .close:hover {
+  color: #06D85F;
+}
+.container-form .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+.container-form textarea{
+	width: 99%;
+	height: 90px;
+}
+
+.close {
+	float: right;
+	margin-top: -15px;
+	margin-right: -10px;
+}
+
+
 /*seccion empresa*/
 .nosotros:target {
 	transform: translateY(-20px);
@@ -346,6 +430,7 @@ footer {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
+	font-style: italic;
 }
 
 .columna2,.columna3 {
@@ -392,6 +477,7 @@ footer {
 	font-size: 18px;
 	display: list-item;
 	padding: 8px;
+
 }
 
 .link {
