@@ -59,7 +59,7 @@ hr {
 
 .menu {
 	display: flex;
-	width: 47%;
+	width: 50%;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -248,7 +248,8 @@ hr {
 }
 
 .nombre-producto {
-	margin-top: 100px;
+	margin-top: 66px;
+	margin-left: 10px;
 	z-index: 2;
 	font-size: 28px;
 	color: #716767;
@@ -282,12 +283,48 @@ hr {
 	transition: 1s;
 }
 
+.contactos-wrap {
+	display: flex;
+	justify-content: space-around;
+	margin: 10%;
+}
 
 /*seccion empresa*/
 .nosotros:target {
 	transform: translateY(-20px);
 	transition: 1s;
 }
+
+
+/*seccion pagina delivery*/
+.lista-delivery {
+	display: flex;
+	flex-wrap: wrap;
+	width: 64%;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.contenedor-delivery {
+	display: flex;
+	justify-content: center;
+}
+
+.item-delivery {
+	width: 44%;
+	padding: 2%;
+	border: solid 1px #dcdcdc;
+    box-shadow: 1px 3px 9px 2px #2266772b;
+    margin-bottom: 3%;
+}
+
+.item-delivery p {
+	font-size: 20px;
+}
+
+.item-delivery strong {
+	color: #09aa9c;
+	}
 
 
 /*seccion footer*/
