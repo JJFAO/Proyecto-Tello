@@ -93,11 +93,11 @@ hr {
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	transition: all 0.8s ease;
 }
 
 .img-redes:hover {
-	transition: 0.5s ease-in-out;
+	transition: 0.6s ease-in-out;
 	-webkit-transform: rotate(30deg);
  	-moz-transform: rotate(30deg);
  	-ms-transform: rotate(30deg);
@@ -204,6 +204,11 @@ hr {
 	padding-bottom: 5%;
 }
 
+.productos:target {
+	transform: translateY(-20px);
+	transition: 1s;
+}
+
 .titulo-producto{
 	background: #80808042;
 	box-shadow: 0 1px 5px rgba(190,190,190,.46);
@@ -211,6 +216,7 @@ hr {
 	padding: 35px;
 	font-size: 40px;
 	font-family: 'Courgette', cursive;
+	color: #099287;
 }
 
 .contenido-productos{
@@ -236,13 +242,26 @@ hr {
 }
 
 .contenido-productos .fas:hover{
-	transform: scale(1.5) rotate(40deg);
+	transform: scale(1.4) rotate(40deg);
 	transition: 2s;
+	text-shadow: 12px 12px 8px #099287;
+}
+
+.nombre-producto {
+	margin-top: 100px;
+	z-index: 2;
+	font-size: 28px;
+	color: #716767;
+	text-shadow: 3px 10px 3px #0992873d, -8px -8px 2px #09928782;
 }
 
 
-
 /*seccion mapa*/
+.sucursales:target {
+	transform: translateY(-20px);
+	transition: 1s;
+}
+
 .mapa {
 	display: flex;
 	justify-content: center;
@@ -254,6 +273,20 @@ hr {
 .mapa iframe {
 	border: solid 1px #dcdcdc;
 	box-shadow: 5px 5px 5px rgba(190,190,190,.46);
+}
+
+
+/*seccion contacto*/
+.contacto:target {
+	transform: translateY(-20px);
+	transition: 1s;
+}
+
+
+/*seccion empresa*/
+.nosotros:target {
+	transform: translateY(-20px);
+	transition: 1s;
 }
 
 
