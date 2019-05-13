@@ -312,6 +312,25 @@ hr {
 	box-shadow: 5px 5px 5px rgba(190,190,190,.46);
 }
 
+/*seccion cv*/
+.banner-empleos{
+	position: relative;
+}
+.banner-empleos img{
+	width: 100%;
+	position: relative;
+	padding-bottom: 15px;
+	display: inline-block;
+	text-align: left;
+}
+.sumateatello{
+	width: 90%;
+	background-color: white;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
 
 /*seccion contacto*/
 .contacto:target {
