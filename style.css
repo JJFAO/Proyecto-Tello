@@ -332,6 +332,7 @@ hr {
 	padding-bottom: 20px;
 }
 
+
 /*seccion contacto*/
 .contacto:target {
 	transform: translateY(-20px);
@@ -464,6 +465,47 @@ hr {
 .item-delivery strong {
 	color: #09aa9c;
 	}
+
+
+.slide
+{
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  overflow: hidden;
+}
+.slide ul
+{
+  /*background-color: rgb(236,240,129); */
+  display: flex;
+  width: 300%;
+  animation: cambio 20s infinite alternate; 
+}
+
+.slide li
+{
+  width: 100%;
+  list-style: none;
+}
+
+.slide img
+{
+  width: 100%;
+}
+
+@keyframes cambio
+{
+  0%{margin-left: 0%}
+  10%{margin-left: 0%}
+
+  15%{margin-left: -100%}
+  25%{margin-left: -100%}
+
+  30%{margin-left: -200%}
+  40%{margin-left: -200%}
+
+} 
 
 
 /*seccion footer*/
