@@ -303,7 +303,7 @@ hr {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	padding-top: 5%;
+	padding-top: 2%;
 	padding-bottom: 5%;
 }
 
@@ -312,9 +312,11 @@ hr {
 	box-shadow: 5px 5px 5px rgba(190,190,190,.46);
 }
 
-/*seccion cv*/
+
+/*seccion empleo*/
 .banner-empleos{
 	position: relative;
+	cursor: pointer;
 }
 .banner-empleos img{
 	width: 100%;
@@ -332,6 +334,22 @@ hr {
 	padding-bottom: 20px;
 }
 
+.overlay-empleo {
+	transition: opacity 500ms;
+ 	visibility: hidden;
+ 	opacity: 0;
+ 	filter: blur(100%);
+}
+.empleos:target .overlay-empleo{
+  visibility: visible;
+  opacity: 1;
+  transition: 
+}	
+
+.texto-empleo {
+
+}
+
 
 /*seccion contacto*/
 .contacto:target {
@@ -340,9 +358,9 @@ hr {
 }
 
 .contactos-wrap {
-	display: flex;
+/*	display: flex;
 	justify-content: space-around;
-	margin: 10%;
+	margin: 10%;*/
 }
 
 .coment {
