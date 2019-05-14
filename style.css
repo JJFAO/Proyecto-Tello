@@ -652,3 +652,62 @@ color: #09a598;
 	font-size: 30px;
 	font-family: 'Montserrat', sans-serif;
 }
+
+
+/*Sabores de Helados*/
+
+.contenido-helados{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding-top: 8%;
+	padding-left: 50px;
+}
+
+.contenido-helados .icono-productos{
+	width: 15%
+}
+
+.icono-tipo-helado{
+	width: 45%;
+}
+
+.nombre-producto-helado{
+	margin-top: 8px;
+	margin-left: 10px;
+	z-index: 2;
+	font-size: 18px;
+	color: #716767;
+}
+
+.titulo-producto-helados{
+	background: #80808042;
+	box-shadow: 0 1px 5px rgba(190,190,190,.46);
+	text-align: center;
+	padding: 35px;
+	font-size: 40px;
+	font-family: 'Courgette', cursive;
+	color: #099287;
+	width: 100%;
+}
+
+.contenedor-texto-descripcion{
+	display: flex;
+}
+
+.descripcion-producto{
+	margin-top: 20px;
+	width: 100%;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+.imagen-logos-sabores{
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.imagen-logos-sabores img{
+	width: 460px;
+	height: 329px;
+}
