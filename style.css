@@ -335,7 +335,7 @@ hr {
 }
 
 .overlay-empleo {
-	transition: opacity 1s;
+	transition: 2s;
  	visibility: hidden;
  	opacity: 0;
  	filter: blur(5px);
@@ -396,13 +396,16 @@ hr {
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
+  transition: 1s;
   visibility: hidden;
   opacity: 0;
+  filter: blur(5px);
 }
 .overlay:target {
   visibility: visible;
   opacity: 1;
+  filter: blur(0);
+  transition: 1.3s;
 }
 
 .container-form {
