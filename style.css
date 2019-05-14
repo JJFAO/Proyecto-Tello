@@ -211,7 +211,7 @@ hr {
 
 .titulo-producto{
 	background: #80808042;
-	box-shadow: 0 1px 5px rgba(190,190,190,.46);
+	box-shadow: 0 1px 5px rgba(84, 148, 143, 0.52);
 	text-align: center;
 	padding: 35px;
 	font-size: 40px;
@@ -335,19 +335,22 @@ hr {
 }
 
 .overlay-empleo {
-	transition: opacity 500ms;
+	transition: opacity 1s;
  	visibility: hidden;
  	opacity: 0;
- 	filter: blur(100%);
+ 	filter: blur(5px);
 }
 .empleos:target .overlay-empleo{
   visibility: visible;
   opacity: 1;
-  transition: 
+  transition: 1.6s;
+  transform: translateY(100px);
+  filter: blur(0);
 }	
 
 .texto-empleo {
-
+	text-align: justify;
+	margin: -4% 30% 10%;
 }
 
 
