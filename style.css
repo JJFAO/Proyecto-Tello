@@ -443,6 +443,10 @@ hr {
 	height: 90px;
 }
 
+.container-form input:hover, .container-form textarea:hover {
+	border: 1px solid #00a396;
+}
+
 .close {
 	float: right;
 	margin-top: -15px;
@@ -595,6 +599,10 @@ footer {
 	margin-left: 14px;
 }
 
+.title:hover {
+	color: #09a598;
+}
+
 .fab {
 	font-size: 30px;
 }
@@ -603,7 +611,11 @@ footer {
 	font-size: 18px;
 	display: list-item;
 	padding: 8px;
+}
 
+
+.menu-footer li:hover i {
+color: #09a598;
 }
 
 .link {
