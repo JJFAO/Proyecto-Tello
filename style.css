@@ -200,23 +200,37 @@ hr {
 	background: #fff;
 }
 /*Productos*/
-.productos{
-	padding-bottom: 5%;
-}
 
-.productos:target {
+.banner{
+	box-shadow: 0 1px 5px rgba(190,190,190,.46);
+	text-align: left;
+	padding: 10px;
+	font-family: 'Courgette', cursive;
+	color: #099287;
+ }
+
+ .banner:target {
 	transform: translateY(-20px);
 	transition: 1s;
 }
 
-.titulo-producto{
-	background: #80808042;
-	box-shadow: 0 1px 5px rgba(84, 148, 143, 0.52);
-	text-align: center;
-	padding: 35px;
-	font-size: 40px;
+
+.banner img{
+	box-shadow: 0 1px 5px rgba(190,190,190,.46);
+	width: 100%;
+	position: absolute;
+	display: flex;
+	height: 280px;
+}
+
+.texto-encima{
+	position: relative;
+	top: 35px;
+	left: 35px;
+	font-size: 90px;
+	color: white;
 	font-family: 'Courgette', cursive;
-	color: #099287;
+	padding-top: 130px;
 }
 
 .contenido-productos{
@@ -273,31 +287,6 @@ hr {
 }
 
 /*seccion mapa*/
-.sucursales-img{
-	position: relative;
-}
-.sucursales img{
-	width: 100%;
-	position: relative;
-	padding-bottom: 15px;
-	display: inline-block;
-	text-align: left;
-}
-
-.texto-encima{
-	position: absolute;
-	top: 35px;
-	left: 35px;
-	font-size: 90px;
-	color: white;
-	font-family: 'Forte';
-	padding-top: 100px;
-}
-
-.sucursales:target {
-	transform: translateY(-20px);
-	transition: 1s;
-}
 
 .mapa {
 	display: flex;
@@ -314,17 +303,7 @@ hr {
 
 
 /*seccion empleo*/
-.banner-empleos{
-	position: relative;
-	cursor: pointer;
-}
-.banner-empleos img{
-	width: 100%;
-	position: relative;
-	padding-bottom: 15px;
-	display: inline-block;
-	text-align: left;
-}
+
 .sumateatello{
 	width: 90%;
 	background-color: white;
@@ -462,6 +441,61 @@ hr {
 	transform: translateY(-20px);
 	transition: 1s;
 }
+
+/*seccion eventos*/
+.texto-eventos{
+	width: 40%;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Open Sans';
+	display: inline-block;
+	float: left;
+	background-color: #f3f3f3;
+	text-decoration-color: black;
+	margin-top: 70px;
+	margin-left: 25px;
+
+}
+
+.slider-eventos{
+	width: 600px;
+	height: 400px;
+ 	margin: auto;
+ 	margin-top: 2%;
+ 	margin-bottom: 2%;
+ 	overflow: hidden;
+
+}
+
+.slider-eventos ul{
+ 	background-color: rgb(236,240,129);
+ 	display: flex;
+ 	width: 300%;
+ 	animation: cambio 20s infinite alternate;
+}
+
+.slider-eventos li{
+	width: 100%;
+ 	list-style: none;
+}
+
+.slider-eventos img{
+ 	width: 100%;
+}
+
+@keyframes cambio
+{
+ 0%{margin-left: 0%}
+ 10%{margin-left: 0%}
+
+ 15%{margin-left: -100%}
+ 25%{margin-left: -100%}
+
+ 30%{margin-left: -200%}
+ 40%{margin-left: -200%}
+
+}
+
 
 
 /*seccion pagina delivery*/
