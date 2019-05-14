@@ -477,6 +477,14 @@ hr {
 	border: solid 1px #dcdcdc;
     box-shadow: 1px 3px 9px 2px #2266772b;
     margin-bottom: 3%;
+    transition: 0.9s;
+}
+
+.item-delivery:hover {
+    transform: scale(1.07);
+    transition: 0.9s;
+    text-shadow: 12px 12px 3px #09928745;
+    box-shadow: 1px 3px 11px 2px #099287bf;
 }
 
 .item-delivery p {
