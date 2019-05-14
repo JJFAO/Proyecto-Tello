@@ -370,13 +370,19 @@ hr {
   visibility: visible;
   opacity: 1;
   transition: 1.6s;
-  transform: translateY(100px);
   filter: blur(0);
-}	
+}
 
 .texto-empleo {
 	text-align: justify;
-	margin: -75px 30% 11%;
+	margin: 0 30%;
+	transition: 1.6;
+	margin: -200px 30% 50px;
+}
+
+.empleos:target .texto-empleo {
+	margin: 20px 30% 50px;
+	transition: 1.6s;	
 }
 
 
@@ -384,12 +390,6 @@ hr {
 .contacto:target {
 	transform: translateY(-20px);
 	transition: 1s;
-}
-
-.contactos-wrap {
-/*	display: flex;
-	justify-content: space-around;
-	margin: 10%;*/
 }
 
 .coment {
