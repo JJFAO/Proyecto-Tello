@@ -123,7 +123,7 @@ hr {
 	position: relative;
 	width: 60%;
 	height: 0;
-	padding-bottom: 40%;
+	padding-bottom: 38%;
 	background: #4c4c4c;
 	border: solid 1px #dcdcdc;
     box-shadow: 5px 5px 5px rgba(190,190,190,.46);
@@ -241,10 +241,6 @@ hr {
 
 
 /*Productos*/
-.productos{
-	padding-bottom: 5%;
-}
-
 .productos:target {
 	transform: translateY(-20px);
 	transition: 1s;
@@ -265,8 +261,8 @@ hr {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 45px;
+	padding-bottom: 50px;
 }
 
 .icono-productos{
@@ -296,6 +292,11 @@ hr {
 	color: #716767;
 	text-shadow: 3px 10px 3px #0992873d, -8px -8px 2px #09928782;
 }
+
+.productos .overlay-banner {
+	margin-top: -373px;
+}
+
 
 /*seccion empresa*/
 .somos p {
