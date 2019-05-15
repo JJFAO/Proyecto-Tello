@@ -13,196 +13,133 @@
 	<link rel="shortcut icon" href="img/ice-cream.ico" type="image/x-icon"/>
 </head>
 <body>
-	<div id="top-bar">
-		<div class="dmenu">
-			<ul class="menu">
-				<a href="index.html" id="logo-bar"><img src="img/logo.png"></a>
-				<li><a href="#product" class="menu-item">PRODUCTOS</a></li>
-				<img src="img/menuseparator.png">
-				<li><a href="#empresa" class="menu-item">NOSOTROS</a></li>
-				<img src="img/menuseparator.png">
-				<li><a href="#sucursal" class="menu-item">SUCURSALES</a></li>
-				<img src="img/menuseparator.png">
-				<li><a href="#contact" class="menu-item">CONTACTO</a></li>
-			</ul>
-		</div>	
+<div id="top-bar">
+	<div class="dmenu">
+		<ul class="menu">
+			<a href="index.html" id="logo-bar"><img src="img/logo.png"></a>
+			<li><a href="index.html#product" class="menu-item">PRODUCTOS</a></li>
+			<img src="img/menuseparator.png">
+			<li><a href="index.html#empresa" class="menu-item">NOSOTROS</a></li>
+			<img src="img/menuseparator.png">
+			<li><a href="index.html#sucursal" class="menu-item">SUCURSALES</a></li>
+			<img src="img/menuseparator.png">
+			<li><a href="index.html#contact" class="menu-item">CONTACTO</a></li>
+		</ul>
+	</div>	
+</div>
+<div class="redes-wrap">
+	<div class="redes-fixed">
+		<a href="https://www.facebook.com/tello.helados/"><img src="img/face1.png" width="100%" class="img-redes"></a>
+		<a href="https://www.instagram.com/tello_helados/"><img src="img/insta1.png" width="100%" class="img-redes"></a>
+		<a href="en-construccion.html"><img src="img/phone1.png" width="100%" class="img-redes"></a>
 	</div>
-	<div class="redes-wrap">
-		<div class="redes-fixed">
-			<a href="https://www.facebook.com/tello.helados/"><img src="img/face1.png" width="100%" class="img-redes"></a>
-			<a href="https://www.instagram.com/tello_helados/"><img src="img/insta1.png" width="100%" class="img-redes"></a>
-			<a href="en-construccion.html"><img src="img/phone1.png" width="100%" class="img-redes"></a>
+</div>
+<main>
+
+	<!-- Nav de tipos de cafe(aquí están los logos de los sabores) -->
+	<div class="contenido-cafe">
+		<div class="icono-productos">
+			<a href="#expresso-link"><img src="img-cafe/coffe-two.svg" class="icono-tipo-cafe"></a>
+			<a href="#expresso-link"><h4 class="nombre-producto-cafe">Expresso</h4></a>
+		</div>
+		<div class="icono-productos">
+			<a href="#latte-link"><img src="img-cafe/coffe-one.svg" class="icono-tipo-cafe" id="latte-logo-id"></a>
+			<a href="#latte-link"><h4 class="nombre-producto-cafe" id="latte-nombre-id">Latte</h4></a>
+		</div>
+		<div class="icono-productos">
+			<a href="#americano-link"><img src="img-cafe/coffe-three.svg" class="icono-tipo-cafe"></i></a>
+			<a href="#americano-link"><h4 class="nombre-producto-cafe">Americano</h4></a>
 		</div>
 	</div>
-	<main>
 
-		<!-- Nav de tipos de cafe(aquí están los logos de los sabores) -->
-		<div class="contenido-cafe">
-			<div class="icono-productos">
-				<a href="#expresso-link"><img src="img-cafe/coffe-two.svg" class="icono-tipo-cafe"></a>
-				<a href="#expresso-link"><h4 class="nombre-producto-cafe">Expresso</h4></a>
+	<!-- Descripción de los sabores de cafe -->
+	<div class="contenedor-total-sabor" id="expresso-link">
+		<hr>
+		<div class="titulo-producto-cafe">
+			<h2>Expresso</h2>
+		</div>
+		<div class="contenedor-texto-descripcion-cafe">
+			<div class="imagen-logos-sabores-cafe">
+				<img src="img-cafe/expresso.jpg">
 			</div>
-			<div class="icono-productos">
-				<a href="#latte-link"><img src="img-cafe/coffe-one.svg" class="icono-tipo-cafe" id="latte-logo-id"></a>
-				<a href="#latte-link"><h4 class="nombre-producto-cafe" id="latte-nombre-id">Latte</h4></a>
-			</div>
-			<div class="icono-productos">
-				<a href="#americano-link"><img src="img-cafe/coffe-three.svg" class="icono-tipo-cafe"></i></a>
-				<a href="#americano-link"><h4 class="nombre-producto-cafe">Americano</h4></a>
+			<div class="descripcion-producto-cafe">
+				Exquisito café Cabrales acompañado con una delicatessen artesanal.
+				<br><br>
 			</div>
 		</div>
 
-		<!-- Descripción de los sabores de cafe -->
-		<div class="contenedor-total-sabor" id="expresso-link">
+		<div class="contenedor-total-sabor" id="latte-link">
 			<hr>
 			<div class="titulo-producto-cafe">
-				<h2>Expresso</h2>
+				<h2>Latte</h2>
+			</div>
+			<div class="contenedor-texto-descripcion-cafe">
+				<div class="descripcion-producto-cafe">
+					Disfrutá de un latte único en un ambiente de relax.
+				</div>
+				<div class="imagen-logos-sabores-cafe">
+					<img src="img-cafe/latte.jpg">
+				</div>
+			</div>
+		</div>
+
+		<div class="contenedor-total-sabor" id="americano-link">
+			<hr>
+			<div class="titulo-producto-cafe">
+				<h2>Americano</h2>
 			</div>
 			<div class="contenedor-texto-descripcion-cafe">
 				<div class="imagen-logos-sabores-cafe">
-					<img src="img-cafe/expresso.jpg">
+					<img src="img-cafe/cafetería.jpg">
 				</div>
 				<div class="descripcion-producto-cafe">
-					Exquisito café Cabrales acompañado con una delicatessen artesanal.
-					<br><br>
+					Disfruta de un exquisito café americano acompañado de riquísimas tortas.
 				</div>
 			</div>
+		</div>
+		<br><br>
+</main>
+<footer>
+<div class="contenedor-footer">
+	<div class="columna1">
+		<div class="logo-footer">
+			<img src="img/logo-footer.png">
+		</div>
+		<div class="social-media-icons">
+			<a href="https://www.instagram.com/tello_helados/" class="link"><i class="fab fa-instagram"></i>
+			</a>
+			<a href="https://www.facebook.com/tello.helados/" class="link"><i class="fab fa-facebook-square"></i>
+			</a>
+		</div>
+		<div class="descripcion">
+			<p>TELLO es una pequeña empresa dedicada a la fabricación y comercialización de helados artesanales y pastelería.Desde 1943 nuestros helados artesanales son elaborados con materia prima de excelente calidad, logrando como resultado un producto premium para nuestros clientes.
+			</p>
+		</div>
+	</div>
+	<div class="columna2">	
+	</div>
+	<div class="columna3">
+		<div class="title">
+			<a href="#inicio">INICIO</a>
+		</div>
+		<div class="menu-footer">
+			<ul>
+				<li>
+					<a href="index.html#product"><i class="fas fa-arrow-right"></i>PRODUCTOS</a>
+				</li>
+				<li>
+					<a href="index.html#empresa"><i class="fas fa-arrow-right"></i>NOSOTROS</a>
+				</li>
+				<li>
+					<a href="index.html#sucursal"><i class="fas fa-arrow-right"></i>SUCURSALES</a></li>
+				<li>
+					<a href="index.html#contact"><i class="fas fa-arrow-right"></i>CONTACTOS</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+</footer>
 
-			<div class="contenedor-total-sabor" id="latte-link">
-				<hr>
-				<div class="titulo-producto-cafe">
-					<h2>Latte</h2>
-				</div>
-				<div class="contenedor-texto-descripcion-cafe">
-					<div class="descripcion-producto-cafe">
-						Disfrutá de un latte único en un ambiente de relax.
-					</div>
-					<div class="imagen-logos-sabores-cafe">
-						<img src="img-cafe/latte.jpg">
-					</div>
-				</div>
-			</div>
-
-			<div class="contenedor-total-sabor" id="americano-link">
-				<hr>
-				<div class="titulo-producto-cafe">
-					<h2>Americano</h2>
-				</div>
-				<div class="contenedor-texto-descripcion-cafe">
-					<div class="imagen-logos-sabores-cafe">
-						<img src="img-cafe/cafetería.jpg">
-					</div>
-					<div class="descripcion-producto-cafe">
-						Disfruta de un exquisito café americano acompañado de riquísimas tortas.
-					</div>
-				</div>
-			</div>
-
-				<!-- <div class="contenedor-total-sabor" id="de-autor">
-					<hr>
-					<div class="titulo-producto-cafe">
-						<h2>De Autor</h2>
-					</div>
-					<div class="contenedor-texto-descripcion-cafe">
-						<div class="imagen-logos-sabores-cafe">
-							<img src="img-helados/autor.jpg">
-						</div>
-						<div class="descripcion-producto-cafe">
-							<i class="fas fa-angle-right"></i>
-							Abachoc (crema de chocolate con sabor de  alfajor marplatense).<br><br>
-							Arándanos y cassis (frutos de la Patagónia).<br><br>
-							<i class="fas fa-angle-right"></i>
-							Cioccolato (chantilly con charlotte y obleas de chocolate).<br><br>
-							<i class="fas fa-angle-right"></i>
-							Crema Charly (chocolate con maníes salados y tostados).<br><br>
-							<i class="fas fa-angle-right"></i>
-							Cookies Cream (Crema caramel, galletitas de chocolate y chocolate).<br><br>
-							<i class="fas fa-angle-right"></i>
-							Delicia Tello (Helado de chantilly con dulce de leche natural y frutillas).<br><br>
-							<i class="fas fa-angle-right"></i>
-							Mousse de maracuyá.<br><br>
-							<i class="fas fa-angle-right"></i>
-							Torta Brownie (Helado de chantilly con dulce de leche natural, nueces y brownie).<br><br>
-						</div>
-					</div>
-				</div>
-
-				<div class="contenedor-total-sabor" id="palitos">
-					<hr>
-					<div class="titulo-producto-cafe">
-						<h2>Palitos</h2>
-					</div>
-					<div class="contenedor-texto-descripcion-cafe">
-						<div class="imagen-logos-sabores-cafe">
-							<img src="img-helados/palitos.jpg">
-						</div>
-						<div class="descripcion-producto-cafe">
-							<i class="fas fa-asterisk"></i>
-							Variedades de palitos helados frutales sabor:<br><br>
-							<i class="fas fa-angle-right"></i> 
-							Ananá.<br>
-							<i class="fas fa-angle-right"></i> 
-							Sandia.<br>
-							<i class="fas fa-angle-right"></i>
-							Manzana verde.<br>
-							<i class="fas fa-angle-right"></i>
-							Uva.<br> 
-							<i class="fas fa-angle-right"></i>
-							frutilla.<br><br>
-							<i class="fas fa-asterisk"></i>
-							Tradicionales palitos bombón helado:<br><br>
-							<i class="fas fa-angle-right"></i>
-							Americana.<br>
-							<i class="fas fa-angle-right"></i> 
-							Vainilla cubiertos en chocolate con leche.<br>
-
-						</div>
-					</div>
-				</div> -->
-
-				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-			</main>
-			<footer>
-				<div class="contenedor-footer">
-					<div class="columna1">
-						<div class="logo-footer">
-							<img src="img/logo-footer.png">
-						</div>
-						<div class="social-media-icons">
-							<a href="https://www.instagram.com/tello_helados/" class="link"><i class="fab fa-instagram"></i>
-							</a>
-							<a href="https://www.facebook.com/tello.helados/" class="link"><i class="fab fa-facebook-square"></i>
-							</a>
-						</div>
-						<div class="descripcion">
-							<p>TELLO es una pequeña empresa dedicada a la fabricación y comercialización de helados artesanales y pastelería.Desde 1943 nuestros helados artesanales son elaborados con materia prima de excelente calidad, logrando como resultado un producto premium para nuestros clientes.
-							</p>
-						</div>
-					</div>
-					<div class="columna2">	
-					</div>
-					<div class="columna3">
-						<div class="title">
-							<a href="#inicio">INICIO</a>
-						</div>
-						<div class="menu-footer">
-							<ul>
-								<li>
-									<a href="#product"><i class="fas fa-arrow-right"></i>PRODUCTOS</a>
-								</li>
-								<li>
-									<a href="#empresa"><i class="fas fa-arrow-right"></i>NOSOTROS</a>
-								</li>
-								<li>
-									<a href="#sucursal"><i class="fas fa-arrow-right"></i>SUCURSALES</a></li>
-									<li>
-										<a href="#contact"><i class="fas fa-arrow-right"></i>CONTACTOS</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</footer>
-
-			</body>
-			</html>
+		</body>
+		</html>

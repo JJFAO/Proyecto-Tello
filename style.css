@@ -210,7 +210,7 @@ hr {
 .banner img {
 	padding-bottom: 15px;
 	width: 100%;
-	height: 350px;
+	height: 320px;
 }
 
 .texto-encima {
@@ -228,7 +228,7 @@ hr {
  	visibility: hidden;
  	opacity: 0;
  	filter: blur(5px);
- 	margin-top: -452px;
+ 	margin-top: -442px;
 }
 
 .cont-banner:target .overlay-banner {
@@ -279,8 +279,8 @@ hr {
 }
 
 .contenido-productos .fas:hover{
-	transform: scale(1.4) rotate(20deg);
-	transition: 1.4s;
+	transform: scale(1.1) rotate(20deg);
+    transition: 0.5s;
 	text-shadow: 12px 12px 8px #099287;
 }
 
@@ -310,7 +310,7 @@ hr {
 }
 
 .somos .overlay-banner {
-	margin-top: -303px;
+	margin-top: -395px;
 }
 
 /*seccion mapa*/
