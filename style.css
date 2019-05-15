@@ -86,7 +86,7 @@ hr {
 	padding-right: 4px;
 	display: flex;
 	flex-direction: column;
-	z-index: 1;
+	z-index: 3;
 }
 
 .img-redes {
@@ -121,7 +121,7 @@ hr {
 	margin:0;
 	margin-top: 100px;
 	position: relative;
-	width: 70%;
+	width: 60%;
 	height: 0;
 	padding-bottom: 40%;
 	background: #4c4c4c;
@@ -200,17 +200,20 @@ hr {
 	background: #fff;
 }
 
+
 /*banners */
 .banner {
 	position: relative;
+	z-index: 1;
 }
 
 .banner img {
 	padding-bottom: 15px;
 	width: 100%;
+	height: 350px;
 }
 
-.texto-encima{
+.texto-encima {
 	position: absolute;
 	top: 35px;
 	left: 35px;
@@ -219,6 +222,23 @@ hr {
 	font-family: 'Courgette', cursive;
 	padding-top: 100px;
 }
+
+.overlay-banner {
+	transition: 2s;
+ 	visibility: hidden;
+ 	opacity: 0;
+ 	filter: blur(5px);
+ 	margin-top: -452px;
+}
+
+.cont-banner:target .overlay-banner {
+	transition: 1.6s;
+	visibility: visible;
+	opacity: 1;
+	filter: blur(0);
+	margin-top: 0;
+}
+
 
 /*Productos*/
 .productos{
@@ -231,7 +251,7 @@ hr {
 }
 
 .titulo-producto{
-	background: #80808042;
+	background: #80808029;
 	box-shadow: 0 1px 5px rgba(84, 148, 143, 0.52);
 	text-align: center;
 	padding: 35px;
@@ -258,13 +278,13 @@ hr {
 	text-shadow: 2px 2px 0 #AAA,      /* Sombra 1 */
 	6px 6px 2px #777,    /* Sombra 2 */
 	12px 12px 8px #267;  /* Sombra 3 */
-	transition: 2s;
+	transition: 1.4s;
 	color: #808080a6;
 }
 
 .contenido-productos .fas:hover{
-	transform: scale(1.4) rotate(40deg);
-	transition: 2s;
+	transform: scale(1.4) rotate(20deg);
+	transition: 1.4s;
 	text-shadow: 12px 12px 8px #099287;
 }
 
@@ -297,8 +317,8 @@ hr {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	padding-top: 2%;
-	padding-bottom: 5%;
+	padding-top: 18px;
+	margin-bottom: -20px;
 }
 
 .mapa iframe {
@@ -308,6 +328,11 @@ hr {
 
 
 /*seccion eventos*/
+
+
+
+
+
 .texto-eventos{
 	width: 40%;
 	text-align: center;
@@ -325,7 +350,7 @@ hr {
 	width: 600px;
 	height: 400px;
  	margin: auto;
- 	margin-top: 2%;
+ 	margin-top: 15px;
  	margin-bottom: 2%;
  	overflow: hidden;
 }
@@ -375,7 +400,6 @@ hr {
 
 .texto-empleo {
 	text-align: justify;
-	margin: 0 30%;
 	transition: 1.6;
 	margin: -200px 30% 50px;
 }
@@ -395,12 +419,16 @@ hr {
 .coment {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 55px;
+	margin-top: 80px;
 }
 
 .button-coment {
 	text-align: center;
-	padding: 10px;
-	border-radius: 20px/50px;
+	padding: 14px;
+    border-radius: 14px/23px;
+    border: solid 1px #2271675e;
+    box-shadow: 5px 5px 5px rgba(84, 148, 143, 0.24);
 	cursor: pointer;
 	transition: all 0.3s ease-out;
 }
