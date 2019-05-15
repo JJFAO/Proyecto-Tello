@@ -724,3 +724,72 @@ color: #09a598;
 	width: 460px;
 	height: 329px;
 }
+
+
+/*Café*/
+.contenido-cafe{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding-top: 8%;
+	padding-left: 50px;
+}
+
+.contenido-cafe .icono-productos{
+	width: 15%
+}
+
+.icono-tipo-cafe{
+	width: 45%;
+}
+
+#latte-logo-id{
+	padding-top: 10px;
+}
+
+#latte-nombre-id{
+	margin: 0;
+	margin-left: 18px;
+}
+
+.nombre-producto-cafe{
+	margin-top: 8px;
+	margin-left: 10px;
+	z-index: 2;
+	font-size: 18px;
+	color: #716767;
+}
+
+.titulo-producto-cafe{
+	background: #80808042;
+	box-shadow: 0 1px 5px rgba(190,190,190,.46);
+	text-align: center;
+	padding: 35px;
+	font-size: 40px;
+	font-family: 'Courgette', cursive;
+	color: #785333;
+	width: 100%;
+}
+
+.contenedor-texto-descripcion-cafe{
+	display: flex;
+}
+
+.descripcion-producto-cafe{
+	margin-top: 20px;
+	width: 100%;
+	padding-left: 30px;
+	padding-top: 30px;
+	font-size: xx-large;
+	color: #785333;
+}
+
+.imagen-logos-sabores-cafe{
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.imagen-logos-sabores-cafe img{
+	width: 460px;
+	height: 329px;
+}
